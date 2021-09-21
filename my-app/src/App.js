@@ -1,9 +1,11 @@
 import css from './App.module.css';
-
+import Content from './components/Content'
+import Search from './components/Search';
 function App() {
   return (
     <div className={css.App}>
-      {/* Add your components here */}
+      {/* <Search/> */}
+      <Content/>
     </div>
   );
 }
